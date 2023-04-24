@@ -13,7 +13,22 @@ class Register extends StatelessWidget {
             padding: const EdgeInsets.all(20.0),
             child:
                 Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-              Container(child: Image.asset('assets/images/dumbell.png')),
+              Text(
+                'Gym Nation',
+                style: TextStyle(
+                    fontFamily: 'Roboto',
+                    fontSize: 50.0,
+                    fontWeight: FontWeight.bold),
+              ),
+              Container(
+                  child: Image.asset(
+                'assets/images/dumbell.png',
+                height: 150.0,
+                width: 200.0,
+              )),
+              SizedBox(
+                height: 30.0,
+              ),
               InputText(
                 labelText: 'Email',
               ),
