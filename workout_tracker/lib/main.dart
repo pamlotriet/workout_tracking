@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:workout_tracker/pages/login.dart';
 import 'package:workout_tracker/pages/register.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MainPage extends StatelessWidget {
       theme: ThemeData(scaffoldBackgroundColor: Color(0xff6D9773)),
       title: 'Flutter Demo',
       home: Scaffold(
-        body: Register(),
+        body: Login(),
       ),
     );
   }
